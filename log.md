@@ -95,3 +95,15 @@ changed: players = rand(6) to: players = rand(5) + 1
 - [merge-conflict](https://github.com/sallybaker/merge-conflict)
 - [security-on-github](https://github.com/sallybaker/security-on-github)
 
+### Day 8: 20 March 2019
+
+**Today's Progress**: Continued work on pub adventure game. Have pushed update to Github. 
+- Game checks to see if player is unconscious each round and after each drink or round of shots. 
+- Added an easter egg if player selects water as their preferred drink
+- If player finds $50 it is added to their wallet and not the treasure count
+- Refactored welcome section and pub_statement
+
+**Thoughts** 
+- Game is currently sitting at 226 lines
+- Less lines of code but better features and gameplay IMHO. 
+- The aim is not to write loads of code, but to build more with less. 
