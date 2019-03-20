@@ -107,3 +107,6 @@ changed: players = rand(6) to: players = rand(5) + 1
 - Game is currently sitting at 226 lines
 - Less lines of code but better features and gameplay IMHO. 
 - The aim is not to write loads of code, but to build more with less. 
+
+**Link(s) to work** [Ruby Adventure Game](https://github.com/sallybaker/ruby-pub-adventure)
+
