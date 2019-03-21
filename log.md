@@ -110,3 +110,19 @@ changed: players = rand(6) to: players = rand(5) + 1
 
 **Link(s) to work** [Ruby Adventure Game](https://github.com/sallybaker/ruby-pub-adventure)
 
+### Day 9: 21 March 2019 
+
+**Today's Progress**:
+- Add check to see if player has maxed out their drinks before continuing game when a drink is consumed
+- Add buy shots action
+- Add check to see if players have gone home. It's not working yet. 
+
+**Thoughts** 
+- Game is currently sitting at 287 lines
+- When working on the buy shots action I noticed an issue with the cost check and had to mess around with the logic, got it wrong several times before I think I now have it right. Will look it over again with fresh eyes another day. 
+- Player count won't hit zero when sending players home. It is stuck at 1 so the while loop condition is never met for player to win game. Will continue working on this. 
+- Code feels like it's getting too messy for my liking. Think I need to implement classes to clean it up...? 
+
+**Link(s) to work** [Ruby Adventure Game](https://github.com/sallybaker/ruby-pub-adventure)
+
+
